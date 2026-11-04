@@ -1,0 +1,74 @@
+{
+ "current": {
+  "orders": 2000,
+  "revenue": 18805231.0,
+  "cycle_days": 4.83,
+  "cycle_edi": 4.22,
+  "cycle_email": 5.09,
+  "pct_ship_3d": 30.2,
+  "entry_error_rate": 7.8,
+  "credit_hold_hrs": 26.2,
+  "otif": 75.9,
+  "chargebacks": 187124.0,
+  "chargeback_pct_rev": 1.0,
+  "invoice_lag": 1.6,
+  "manual_hours": 362.0,
+  "manual_cost": 12684.0,
+  "stage": {
+   "d_entry": 1.6,
+   "d_credit": 0.18,
+   "d_alloc": 1.05,
+   "d_route": 0.5,
+   "d_ship": 1.49
+  },
+  "cb_by_type": {
+   "Late routing / missed pickup": 124427.0,
+   "ASN accuracy": 53866.0,
+   "Carton labeling": 5323.0,
+   "Late shipment (OTIF)": 3508.0
+  },
+  "cb_count": {
+   "ASN accuracy": 66,
+   "Carton labeling": 19,
+   "Late routing / missed pickup": 146,
+   "Late shipment (OTIF)": 5
+  }
+ },
+ "future": {
+  "orders": 2000,
+  "revenue": 18805231.0,
+  "cycle_days": 2.27,
+  "cycle_edi": 2.91,
+  "cycle_email": 1.99,
+  "pct_ship_3d": 88.9,
+  "entry_error_rate": 2.1,
+  "credit_hold_hrs": 3.4,
+  "otif": 94.6,
+  "chargebacks": 33830.0,
+  "chargeback_pct_rev": 0.18,
+  "invoice_lag": 0.3,
+  "manual_hours": 94.0,
+  "manual_cost": 3302.0,
+  "stage": {
+   "d_entry": 0.16,
+   "d_credit": 0.02,
+   "d_alloc": 0.26,
+   "d_route": 0.35,
+   "d_ship": 1.48
+  },
+  "cb_by_type": {
+   "Late routing / missed pickup": 30734.0,
+   "Carton labeling": 3096.0
+  },
+  "cb_count": {
+   "Carton labeling": 13,
+   "Late routing / missed pickup": 35
+  }
+ },
+ "dtc_oversell_pct": 3.6,
+ "dtc_oversell_launch_pct": 8.46,
+ "dtc_oversell_future_pct": 0.51,
+ "dtc_cancellations": 1553,
+ "email_share": 69.6,
+ "hold_share_specialty": 23.6
+}
