@@ -13,7 +13,7 @@ the point; the figures are illustrations, not industry benchmarks.
 
 | # | Question | Where it's answered |
 |---|---|---|
-| 1 | Where do the 4.8 days between order receipt and shipment actually go? | `Analysis` sheet §1, current-state swimlane |
+| 1 | Where do the 4.8 days between order receipt and shipment actually go? | `Analysis` sheet §1, [current-state swimlane](docs/current_state_swimlane.pdf) |
 | 2 | Which order types and customers drive the delays? | `Analysis` sheet §2–3 |
 | 3 | What is driving retailer chargebacks, and what do they cost? | `Analysis` sheet §4–5, chargeback Pareto |
 | 4 | Which fixes give the most impact for the least effort? | Impact vs effort 2x2, automation backlog |
@@ -76,6 +76,7 @@ data/      order_log_current.csv        2,000 simulated orders, current process
            kpi_summary.json             headline KPIs for both scenarios
 docs/      process_library.pdf          maps, analysis, specs, SOPs and change toolkit
            case_study_deck.pdf          11-slide case study presentation
+           current_state_swimlane.pdf   current-state process map, standalone full-size
 src/       generate_data.py             simulates the order logs (seeded, reproducible)
            build_workbook.py            builds the Excel workbook from the CSVs
 ```
